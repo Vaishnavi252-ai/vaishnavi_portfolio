@@ -21,7 +21,7 @@ export default function ResumeDownload() {
       transition={{ delay: 1.0, duration: 0.6 }}
     >
       <motion.a
-        href="/resume.pdf"
+        href="/Vaishnavi_Misal_Resume.pdf"
         download="Vaishnavi_Misal_Resume.pdf"
         onClick={handleDownload}
         onMouseEnter={() => setHovered(true)}

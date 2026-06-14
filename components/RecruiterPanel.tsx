@@ -23,10 +23,10 @@ const EXPERIENCE_PREVIEW = [
   {
     role: 'Frontend Developer Intern',
     org: 'InternPro',
-    duration: 'Jun 2025 – Jul 2025'
+    duration: 'Jun 2025 – Aug 2025'
   },
   {
-    role: 'Freelance JavaScript Developer',
+    role: 'Freelancer',
     org: 'Self-Employed',
     duration: '2025'
   }
@@ -154,12 +154,12 @@ export default function RecruiterPanel() {
                   <div className="space-y-2.5">
                     <ContactRow icon={<Mail size={13} />} label="vaishnavimisal878@gmail.com" href="mailto:vaishnavimisal878@gmail.com" />
                     <ContactRow icon={<Phone size={13} />} label="+91 9321785285" href="tel:+91 932178525" />
-                    <ContactRow icon={<Linkedin size={13} />} label="linkedin.com/in/vaishnavimisal" href="www.linkedin.com/in/vaishnavi-misal-2bbb01291" />
+                    <ContactRow icon={<Linkedin size={13} />} label="linkedin.com/in/vaishnavimisal" href="https://www.linkedin.com/in/vaishnavi-misal-2bbb01291" />
                     <ContactRow icon={<Github size={13} />} label="github.com/vaishnavimisal" href="https://github.com/Vaishnavi252-ai" />
                   </div>
                 </Section>
 
-                <a href="/resume.pdf" download className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold transition-all"
+                <a href="/Vaishnavi_Misal_Resume.pdf" download className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold transition-all"
                   style={{ background: 'linear-gradient(135deg, #14b8a6, #0d9488)', color: '#0a0a0a' }}
                   onMouseEnter={e => { (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 0 24px rgba(20,184,166,0.4)'; }}
                   onMouseLeave={e => { (e.currentTarget as HTMLAnchorElement).style.boxShadow = 'none'; }}>

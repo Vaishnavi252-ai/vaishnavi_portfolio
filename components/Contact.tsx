@@ -62,7 +62,7 @@ export default function Contact() {
               {[
                 { icon: <Mail size={14} />, label: 'vaishnavimisal878@gmail.com', href: 'mailto:vaishnavimisal878@gmail.com' },
                 { icon: <Phone size={14} />, label: '+91 9321785285', href: 'tel:+91 9321785285' },
-                { icon: <Linkedin size={14} />, label: 'linkedin.com/in/vaishnavi-misal-2bbb01291', href: 'www.linkedin.com/in/vaishnavi-misal-2bbb01291' },
+                { icon: <Linkedin size={14} />, label: 'linkedin.com/in/vaishnavi-misal-2bbb01291', href: 'https://www.linkedin.com/in/vaishnavi-misal-2bbb01291' },
                 { icon: <Github size={14} />, label: 'https://github.com/Vaishnavi252-ai', href: 'https://github.com/Vaishnavi252-ai' },
               ].map(({ icon, label, href }) => (
                 <a

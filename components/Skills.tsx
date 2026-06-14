@@ -4,14 +4,18 @@ import { useState, useRef } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 
 const CATEGORIES = [
-  { id: 'languages', label: 'Languages', sym: '{ }', skills: ['Python', 'JavaScript', 'TypeScript', 'Java', 'C++', 'SQL'] },
-  { id: 'frontend', label: 'Frontend', sym: '◈', skills: ['React', 'Next.js', 'TailwindCSS', 'Framer Motion', 'HTML5', 'CSS3'] },
-  { id: 'backend', label: 'Backend', sym: '⌬', skills: ['Node.js', 'Express.js', 'FastAPI', 'Django', 'REST APIs', 'GraphQL'] },
-  { id: 'database', label: 'Database', sym: '⊡', skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis', 'Supabase', 'Firebase'] },
-  { id: 'ai', label: 'AI / ML', sym: '◎', skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'LangChain', 'OpenAI API', 'Pandas'] },
-  { id: 'tools', label: 'Tools', sym: '⧉', skills: ['Git', 'Docker', 'AWS', 'Vercel', 'Linux', 'Figma'] },
-];
+  { id: 'languages', label: 'Languages', sym: '{ }', skills: ['Python', 'JavaScript', 'TypeScript', 'SQL'] },
 
+  { id: 'frontend', label: 'Frontend', sym: '◈', skills: ['HTML5', 'CSS3', 'Tailwind CSS', 'React', 'Next.js', 'Framer Motion'] },
+
+  { id: 'backend', label: 'Backend', sym: '⌬', skills: ['Node.js', 'Express.js', 'FastAPI', 'Django', 'REST APIs', 'GraphQL'] },
+
+  { id: 'database', label: 'Databases', sym: '⊡', skills: ['MongoDB', 'MySQL', 'SQLite', 'Supabase', 'Firebase'] },
+
+  { id: 'ai', label: 'AI / ML', sym: '◎', skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'LangChain', 'OpenAI API', 'Pandas'] },
+
+  { id: 'tools', label: 'Tools', sym: '⧉', skills: ['Git', 'GitHub', 'Docker', 'AWS', 'Vercel', 'Linux', 'Figma'] },
+];
 const SKILL_BARS = [
   { name: 'Python', percentage: 90, color: '#14b8a6' },
   { name: 'JavaScript', percentage: 88, color: '#2dd4bf' },
@@ -19,8 +23,10 @@ const SKILL_BARS = [
   { name: 'Node.js', percentage: 82, color: '#2dd4bf' },
   { name: 'Next.js', percentage: 80, color: '#14b8a6' },
   { name: 'TypeScript', percentage: 78, color: '#2dd4bf' },
-  { name: 'FastAPI', percentage: 75, color: '#14b8a6' },
+  { name: 'Express.js', percentage: 76, color: '#14b8a6' },
   { name: 'MongoDB', percentage: 75, color: '#2dd4bf' },
+  { name: 'Tailwind CSS', percentage: 80, color: '#14b8a6' },
+  { name: 'SQL', percentage: 72, color: '#2dd4bf' }
 ];
 
 export default function Skills() {

@@ -7,7 +7,7 @@ const LINKS = [
   {
     icon: <Linkedin size={15} />,
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/vaishnavimisal',
+    href: 'https://www.linkedin.com/in/vaishnavi-misal-2bbb01291',
   },
   {
     icon: <Github size={15} />,

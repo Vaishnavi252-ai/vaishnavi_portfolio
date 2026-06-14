@@ -6,24 +6,52 @@ import useEmblaCarousel from 'embla-carousel-react';
 import { Github, ExternalLink, ChevronLeft, ChevronRight, Star } from 'lucide-react';
 
 const FEATURED = {
-  name: 'AI Study Assistant',
-  tagline: 'Personalised learning powered by LLMs',
-  description: 'A full-stack AI-powered academic assistant that leverages large language models to generate personalised quizzes, summarise study materials, and provide contextual explanations — helping students learn 40% faster.',
-  image: 'https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1200',
+
+  name: 'Skillora',
+  status: 'In Progress',
+
+  tagline: 'Learn. Teach. Earn. Grow Together.',
+
+  description:
+    'Skillora is a SaaS-level peer-to-peer learning ecosystem that connects learners, mentors, and organizations through live mentorship, AI-powered career tools, communities, resource sharing, skill tracking, and marketplace learning experiences. Users can learn from experts, become mentors themselves, conduct live classrooms, build professional portfolios, track progress, and monetize their expertise within a single platform.',
+
+  image: '/Skillora.png',
+
   metrics: [
-    { value: '500+', label: 'Active Users' },
-    { value: '40%', label: 'Faster Learning' },
-    { value: '92%', label: 'Accuracy Rate' },
-    { value: '4.8', label: 'User Rating' },
+    { value: '15+', label: 'Core Modules Built' },
+    { value: '50+', label: 'REST API Endpoints' },
+    { value: '7', label: 'Development Sprints Completed' },
+    { value: '100%', label: 'Full Stack TypeScript' },
   ],
-  stack: ['Next.js', 'FastAPI', 'OpenAI API', 'PostgreSQL', 'TailwindCSS', 'Supabase'],
+
+  stack: [
+    'React',
+    'TypeScript',
+    'Vite',
+    'Tailwind CSS',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'JWT Authentication',
+    'Socket.io',
+    'WebRTC',
+    'Zustand',
+    'React Query'
+  ],
+
   challenges: [
-    'Optimised prompt engineering reducing API costs by 60%',
-    'Implemented streaming responses for real-time UX',
-    'Built custom RAG pipeline for document-aware answers',
+    'Built role-based architecture supporting Learners, Mentors, Organizations, and Admins',
+    'Implemented secure JWT authentication with onboarding and profile completion flow',
+    'Developed mentor discovery, booking, live classroom, and session management system',
+    'Created real-time classroom foundation using Socket.io and WebRTC',
+    'Designed payment, subscription, marketplace, and mentor monetization architecture',
+    'Integrated AI-powered modules including Career Twin, AI Mentor, Resume Review, Roadmap Generator, and Match Engine',
+    'Built scalable community, resource sharing, portfolio, and progress tracking systems'
   ],
-  github: '#',
-  live: '#',
+
+  github: 'https://github.com/Vaishnavi252-ai/Skillora',
+  live: '#'
+
 };
 
 const PROJECTS = [
