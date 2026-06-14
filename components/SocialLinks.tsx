@@ -6,7 +6,7 @@ import { Github, Linkedin, Mail, Code2 } from 'lucide-react';
 const LINKS = [
   { icon: <Linkedin size={15} />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/vaishnavi-misal-2bbb01291' },
   { icon: <Github size={15} />, label: 'GitHub', href: 'https://github.com/Vaishnavi252-ai' },
-  { icon: <Code2 size={15} />, label: 'CodePen', href: 'https://codepen.io/Vaishnavi252-ai' },,
+  { icon: <Code2 size={15} />, label: 'CodePen', href: 'https://codepen.io/Vaishnavi252-ai' },
   { icon: <Mail size={15} />, label: 'Email', href: 'mailto:vaishnavimisal@email.com' },
 ];
 
