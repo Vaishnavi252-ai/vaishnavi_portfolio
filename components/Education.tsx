@@ -8,7 +8,7 @@ const TIMELINE = [
   {
     id: 1, degree: 'Bachelor of Engineering', field: 'Computer Science Engineering in Artificail Intelligence and Machine Learning [AIML]',
     institution: 'Mumbai Universiy | Bharat College of Engineering ', period: '2022 — 2026',
-    detail: 'Current GPA: 7.52', status: 'Graduated',
+    detail: 'CGPA: 6.89', status: 'Graduated',
     highlights: ['Artificial Intelligence & ML', 'Deep Learning', 'Web Technologies', 'Database Management Systems', 'Data Structures & Agorithms'],
   },
   {

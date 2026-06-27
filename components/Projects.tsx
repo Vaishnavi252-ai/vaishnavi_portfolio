@@ -56,11 +56,26 @@ const FEATURED = {
 
 const PROJECTS = [
   {
-    id: 1, name: 'DevConnect', tagline: 'Real-time developer collaboration hub',
-    description: 'Full-stack social platform for developers to collaborate on projects, share code snippets, and connect with teams — complete with real-time messaging.',
-    image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
-    stack: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'TailwindCSS'], github: '#', live: '#',
-  },
+  id: 1,
+  name: 'Vilavie Jewel Ecom Website',
+  tagline: 'Modern Full-Stack Jewellery E-Commerce Platform',
+  description:
+    'A production-ready jewellery e-commerce application featuring secure authentication, wishlist, shopping cart, Razorpay & Cash on Delivery payments, order tracking, and a comprehensive admin dashboard for product and order management.',
+  image: '/jewelwebsite.png', 
+  stack: [
+    'React',
+    'TypeScript',
+    'Vite',
+    'Tailwind CSS',
+    'Node.js',
+    'Express.js',
+    'Supabase',
+    'Razorpay',
+    'React Query'
+  ],
+  github: 'https://github.com/Vaishnavi252-ai/jewelwebsite',
+  live: 'https://jewelwebsite.vercel.app',
+},
   {
     id: 2, name: 'DataViz Pro', tagline: 'Interactive ML model visualisation',
     description: 'Analytics dashboard that transforms complex ML datasets into interactive drill-down visualisations. Supports CSV uploads and automatic chart generation.',

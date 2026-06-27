@@ -8,7 +8,7 @@ const QUICK_STATS = [
   { value: '5+', label: 'Projects Built' },
   { value: '30+', label: 'Technologies' },
   { value: '8', label: 'Certifications' },
-  { value: '7.52', label: 'Current GPA' },
+  { value: '6.89', label: 'CGPA' },
 ];
 
 const SKILLS_PREVIEW = ['Python', 'React', 'Next.js', 'Node.js', 'FastAPI', 'TailwindCSS', 'MongoDB', 'MySQL', 'TensorFlow', 'Git'];

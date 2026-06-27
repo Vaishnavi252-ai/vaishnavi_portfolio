@@ -6,7 +6,7 @@ import { motion, useInView } from 'framer-motion';
 const STATS = [
   { value: 5, suffix: '+', label: 'Projects Built', sublabel: 'Full-stack & AI' },
   { value: 30, suffix: '+', label: 'Technologies', sublabel: 'Languages, Frameworks, Tools' },
-  { value: 7.52, suffix: '', label: 'CGPA', sublabel: 'Bharat College of Engineering' },
+  { value: 6.89, suffix: '', label: 'CGPA', sublabel: 'Bharat College of Engineering' },
   { value: 100, suffix: '%', label: 'Passion', sublabel: 'Building impactful products' },
 ];
 
