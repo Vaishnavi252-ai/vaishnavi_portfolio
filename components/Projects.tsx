@@ -88,7 +88,7 @@ const PROJECTS = [
   tagline: 'Responsive image gallery powered by the Pexels API',
   description:
     'A responsive image gallery built with HTML, CSS, and JavaScript. Features image search using the Pexels API, lightbox preview, image downloads, dark/light mode with localStorage persistence, and a fully responsive interface.This was my first JavaScript project and helped me learn DOM manipulation, API integration, asynchronous JavaScript, LocalStorage, and responsive web development.',
-  image: '/imaze.png',
+  image: '/Imaze.png',
   stack: [
     'HTML5',
     'CSS3',
