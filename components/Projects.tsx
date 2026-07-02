@@ -83,11 +83,22 @@ const PROJECTS = [
     stack: ['Python', 'FastAPI', 'React', 'Recharts', 'Pandas'], github: '#', live: '#',
   },
   {
-    id: 3, name: 'ShopSmart', tagline: 'AI-curated e-commerce platform',
-    description: 'Modern e-commerce application featuring an AI product recommendation engine, smart search, and a seamless checkout flow — handling 1,000+ concurrent sessions.',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800',
-    stack: ['Next.js', 'Stripe', 'PostgreSQL', 'Redis', 'TailwindCSS'], github: '#', live: '#',
-  },
+  id: 3,
+  name: 'Imaze',
+  tagline: 'Responsive image gallery powered by the Pexels API',
+  description:
+    'A responsive image gallery built with HTML, CSS, and JavaScript. Features image search using the Pexels API, lightbox preview, image downloads, dark/light mode with localStorage persistence, and a fully responsive interface.This was my first JavaScript project and helped me learn DOM manipulation, API integration, asynchronous JavaScript, LocalStorage, and responsive web development.',
+  image: '/imaze.png',
+  stack: [
+    'HTML5',
+    'CSS3',
+    'JavaScript',
+    'Pexels API',
+    'LocalStorage'
+  ],
+  github: 'https://github.com/Vaishnavi252-ai/Imaze',
+  live: 'https://courageous-baklava-f77bd5.netlify.app/',
+},
   {
     id: 4, name: 'MindMap AI', tagline: 'AI-assisted knowledge mapping',
     description: 'Drag-and-drop mind mapping tool with an AI co-pilot that suggests connections, generates sub-topics, and helps build comprehensive knowledge graphs.',
