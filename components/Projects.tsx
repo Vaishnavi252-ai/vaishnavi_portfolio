@@ -77,11 +77,23 @@ const PROJECTS = [
   live: 'https://jewelwebsite.vercel.app',
 },
   {
-    id: 2, name: 'DataViz Pro', tagline: 'Interactive ML model visualisation',
-    description: 'Analytics dashboard that transforms complex ML datasets into interactive drill-down visualisations. Supports CSV uploads and automatic chart generation.',
-    image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800',
-    stack: ['Python', 'FastAPI', 'React', 'Recharts', 'Pandas'], github: '#', live: '#',
-  },
+  id: 2,
+  name: 'SmartSplit',
+  tagline: 'AI-Powered Smart Expense Splitter',
+  description: 'A full-stack expense splitting application that simplifies shared finances with intelligent balance calculation, multiple split strategies, and AI-powered natural language expense & bill parsing. Features group management, settlement suggestions, expense history, and a responsive user interface.',
+  image: '/SmartSplit.png',
+  stack: [
+    'Flask',
+    'SQLite',
+    'Pydantic',
+    'JavaScript',
+    'HTML',
+    'CSS',
+    'Gemini AI'
+  ],
+  github: 'https://github.com/Vaishnavi252-ai/SplitSmart_Smart_Expense_Splitter',
+  live: 'https://splitsmart-smart-expense-splitter.onrender.com',
+},
   {
   id: 3,
   name: 'Imaze',
@@ -100,11 +112,23 @@ const PROJECTS = [
   live: 'https://courageous-baklava-f77bd5.netlify.app/',
 },
   {
-    id: 4, name: 'MindMap AI', tagline: 'AI-assisted knowledge mapping',
-    description: 'Drag-and-drop mind mapping tool with an AI co-pilot that suggests connections, generates sub-topics, and helps build comprehensive knowledge graphs.',
-    image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
-    stack: ['React', 'OpenAI API', 'TypeScript', 'Framer Motion'], github: '#', live: '#',
-  },
+  id: 4,
+  name: 'Krishi-Sahay',
+  tagline: 'AI-powered agricultural credit assessment platform',
+  description:
+    'A full-stack web application that modernizes agricultural loan assessment using alternative credit scoring, multilingual support, rule-based risk analysis, loan EMI calculation, and AI-assisted farmer guidance. Designed to help banks and financial institutions evaluate creditworthiness for small and marginal farmers.',
+  image: '/Krishi-Sahay.png',
+  stack: [
+    'React',
+    'TypeScript',
+    'Flask',
+    'Python',
+    'SQLite',
+    'Tailwind CSS',
+    'Vite'
+  ],
+  github: 'https://github.com/Vaishnavi252-ai/Krishi-Sahay'
+},
 ];
 
 export default function Projects() {
