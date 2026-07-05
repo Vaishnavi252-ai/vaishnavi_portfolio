@@ -94,25 +94,8 @@ const PROJECTS = [
   github: 'https://github.com/Vaishnavi252-ai/SplitSmart_Smart_Expense_Splitter',
   live: 'https://splitsmart-smart-expense-splitter.onrender.com',
 },
-  {
+{
   id: 3,
-  name: 'Imaze',
-  tagline: 'Responsive image gallery powered by the Pexels API',
-  description:
-    'A responsive image gallery built with HTML, CSS, and JavaScript. Features image search using the Pexels API, lightbox preview, image downloads, dark/light mode with localStorage persistence, and a fully responsive interface.This was my first JavaScript project and helped me learn DOM manipulation, API integration, asynchronous JavaScript, LocalStorage, and responsive web development.',
-  image: '/Imaze.png',
-  stack: [
-    'HTML5',
-    'CSS3',
-    'JavaScript',
-    'Pexels API',
-    'LocalStorage'
-  ],
-  github: 'https://github.com/Vaishnavi252-ai/Imaze',
-  live: 'https://courageous-baklava-f77bd5.netlify.app/',
-},
-  {
-  id: 4,
   name: 'Krishi-Sahay',
   tagline: 'AI-powered agricultural credit assessment platform',
   description:
@@ -129,7 +112,25 @@ const PROJECTS = [
   ],
   github: 'https://github.com/Vaishnavi252-ai/Krishi-Sahay'
 },
+  {
+  id: 4,
+  name: 'Imaze',
+  tagline: 'Responsive image gallery powered by the Pexels API',
+  description:
+    'A responsive image gallery built with HTML, CSS, and JavaScript. Features image search using the Pexels API, lightbox preview, image downloads, dark/light mode with localStorage persistence, and a fully responsive interface.This was my first JavaScript project and helped me learn DOM manipulation, API integration, asynchronous JavaScript, LocalStorage, and responsive web development.',
+  image: '/Imaze.png',
+  stack: [
+    'HTML5',
+    'CSS3',
+    'JavaScript',
+    'Pexels API',
+    'LocalStorage'
+  ],
+  github: 'https://github.com/Vaishnavi252-ai/Imaze',
+  live: 'https://courageous-baklava-f77bd5.netlify.app/',
+}
 ];
+
 
 export default function Projects() {
   const ref = useRef(null);
