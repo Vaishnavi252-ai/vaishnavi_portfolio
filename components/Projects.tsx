@@ -117,7 +117,7 @@ const PROJECTS = [
   tagline: 'AI-powered agricultural credit assessment platform',
   description:
     'A full-stack web application that modernizes agricultural loan assessment using alternative credit scoring, multilingual support, rule-based risk analysis, loan EMI calculation, and AI-assisted farmer guidance. Designed to help banks and financial institutions evaluate creditworthiness for small and marginal farmers.',
-  image: '/Krishi-Sahay.png',
+  image: '/KrishiSahay.png',
   stack: [
     'React',
     'TypeScript',
