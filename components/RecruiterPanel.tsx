@@ -159,7 +159,7 @@ export default function RecruiterPanel() {
                   </div>
                 </Section>
 
-                <a href="/Vaishnavi_Misal_Resume.pdf" download className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold transition-all"
+                <a href="/VAISHNAVI MISAL RESUME.pdf" download className="flex items-center justify-center gap-2 w-full py-3 rounded-xl text-sm font-semibold transition-all"
                   style={{ background: 'linear-gradient(135deg, #14b8a6, #0d9488)', color: '#0a0a0a' }}
                   onMouseEnter={e => { (e.currentTarget as HTMLAnchorElement).style.boxShadow = '0 0 24px rgba(20,184,166,0.4)'; }}
                   onMouseLeave={e => { (e.currentTarget as HTMLAnchorElement).style.boxShadow = 'none'; }}>
